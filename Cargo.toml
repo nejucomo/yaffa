@@ -7,6 +7,8 @@ members = [
 [workspace.package]
 edition = "2024"
 version = "0.1.0"
+license = "MIT"
+repository = "https://github.com/nejucomo/yaffa"
 
 [workspace.metadata.crane]
 name = "yaffa-workspace"
