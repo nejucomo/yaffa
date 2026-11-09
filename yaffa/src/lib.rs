@@ -1,6 +1,6 @@
 //! Yet Another Fromework For Applications
 
-pub use color_eyre::eyre::{Error, Result, eyre};
+pub use color_eyre::eyre::{self, Error, Result, WrapErr, bail, ensure, format_err};
 
 /// A minimalist application wrapper providing `color_eyre` errors and basic `clap` parsing support
 pub trait App: Sized + RunWith<Self::Options> {
